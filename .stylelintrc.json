@@ -1,0 +1,29 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "plugins": ["stylelint-scss", "stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["class", "attribute", "id"]
+      }
+    ],
+    "indentation": [
+      2,
+      {
+        "baseIndentLevel": 2
+      }
+    ],
+    "color-named": "always-where-possible",
+    "selector-max-id": 2,
+    "selector-class-pattern": [
+      "[a-z]+((\\d)|([A-Z0-9|-][a-z0-9|-]+))*([A-Z])?",
+      {
+        "resolveNestedSelectors": true
+      }
+    ],
+    "max-nesting-depth": 5,
+    "selector-max-compound-selectors": 6
+  }
+}

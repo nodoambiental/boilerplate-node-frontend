@@ -1,0 +1,8 @@
+out/
+.github/
+bin/
+coverage/
+library/
+node_modules/
+docs/
+src/docs/
