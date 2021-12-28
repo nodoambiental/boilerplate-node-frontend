@@ -6,3 +6,4 @@ library/
 node_modules/
 docs/
 src/docs/
+commitlint.config.js
